@@ -1,0 +1,75 @@
+ <!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carta Secreta </title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div id="passwordScreen" class="screen password-screen active">
+  <h2>🔒 ingresa la contraseña</h2>
+  <div class="input-display" id="inputDisplay">••••</div>
+  <div class="keypad">
+    <button class="key" onclick="enterDigit('1')">1</button>
+    <button class="key" onclick="enterDigit('2')">2</button>
+    <button class="key" onclick="enterDigit('3')">3</button>
+    <button class="key" onclick="enterDigit('4')">4</button>
+    <button class="key" onclick="enterDigit('5')">5</button>
+    <button class="key" onclick="enterDigit('6')">6</button>
+    <button class="key" onclick="enterDigit('7')">7</button>
+    <button class="key" onclick="enterDigit('9')">9</button>
+    <button class="key" onclick="enterDigit('8')">8</button>
+    <div></div>
+    <button class="key" onclick="enterDigit('0')">0</button>
+    <div></div>
+  </div>
+</div>
+
+
+<div id="notepadScreen" class="screen">
+  <div class="notepad">
+    <h3>10 de abril 2026 </h3>
+    <h4>💌 Mi querida alejandrita </h4>
+    <p> ¿cuantas veces eh dicho que te amo? hay cosas que ciertamente no se explican pero, ¿que tal si lo intento?
+      pero, ¿por donde empiezo? sentimentalmente nuestro por ahora, por ahora igualmente intentare evitar las metaforas ¿sera posible? y mira que la lluvia empezo a caer, al menos si me emociono de mas
+      dire que es culpa suya, pero tu mi querida mujer, sabras que no es suya.
+      
+    </p>
+    <p>
+      A tu lado aprendí lo que es el amor verdadero 
+dame paz, dame guerra, y yo te dare lo mejor, luna de miel, luna de papel, a tu lado cualquier cosa tiene sentido, y mis sentidos explotan al recordarte otra vez 
+ todavia trato de descubrir que sera, ¿sera por todo lo que somos? me siento honrado, es un placer para mi, dirigirme a vos 
+
+    </p>
+    <p>
+      lo  admito realmente no sé cómo explicarlo, pero si puedo hacer que lo sientas, porque ciertamente sigo estando a tu lado y mientras yo este aca rendire
+      mis pensamientos a ti, caramelos de miel y amor entre tus manos,  me siento cual navegante que ah perdido el curso de su viaje tratando de explicarlo y espero que el amor me lleve a tus orillas,  
+      mi corazon esta con vos y voy a seguir amandote mientras me dejes amarte.
+
+    </p>
+    <p>
+      Te amo profundamente, anda mi querida musa, que inspira mis letras, embellece mi canto o arrancame la vida, que sentido tiene sin vos, sos la culpable de mi amor escandaloso, que en noche mojada retumba en mi cabeza,
+      mirate al espejo y ve cual hermoso se ve el amor de mi vida, de mi vida y de mi muerte, entiendo, soy capaz de morir por vos, cual hermosa creacion es capaz de inspirar mis pensamientos y trazar el camino a seguir al agonizante poeta moderno
+    
+    </p>
+    <p>
+      Te amo mas , sos y seras la mujer de mi vida, sos lo mejor que tengo y seguire plasmando 
+      mi amor por vos hasta que mi cabeza me lo permita, vos sos mi vida y mi razon para vivirla, y es que sin vos
+      nisiquiera esto tendria sentido, soy tuyo, anda ven, toma mi corazon que siempre ah sido tuyo ♡.
+    </p>
+  </div>
+</div>
+
+<!-- JS -->
+<script src="script.js"></script>
+<audio id="musica" loop>
+  <source src="cancion.mp3" type="audio/mpeg">
+</audio>
+
+</body>
+</html>
